@@ -226,3 +226,37 @@ body {
   width: 25rem;
   height: 30rem;
 }
+
+/* section instagram */
+
+.instagram_container {
+  margin: 5rem 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.instagram_content {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.instagram_content h2{
+  font-size: var(--h3);
+}
+
+.instagram_content p{
+  font-size: var(--h5);
+  color: rgba(39, 39, 39, 0.5);
+}
+
+.instagram_imgages {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.instagram_imgages img {
+  width: 100%;
+}
