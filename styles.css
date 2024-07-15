@@ -70,9 +70,6 @@ body {
 }
 
 .header_img {
-  /* width: 80%;
-  height: 70vh; */
-  /* background-color: greenyellow; */
   height: 100%;
   width: 100%;
 }
@@ -265,11 +262,12 @@ body {
 
 .cta_container{
   margin: 5rem 20rem;
-  background: url("./Flower Asset/Rectangle 9.png") center/cover no-repeat;
-  /* background-image: url("./Flower Asset/Rectangle\ 9.png");
+  background-color: rgba(39, 39, 39,.2);
+  background-blend-mode: overlay;
+  background-image: url("./Flower Asset/Rectangle 9.png");
   background-position: center;
-  background-repeat: no-repeat; */
-  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 30rem;
   display: flex;
   align-items: center;
@@ -283,7 +281,7 @@ body {
 
 .cta_content p{
   font-size: var(--h5);
-  color: rgba(39, 39, 39, 0.5);
+  color: rgba(39, 39, 39, 0.8);
   text-align: center;
 }
 
@@ -295,6 +293,36 @@ body {
 }
 
 .input_field .btn{
-  padding: 1.2rem 2rem;
+  padding: 1.4rem 2rem;
   margin-left: 1rem;
+}
+
+/* footer */
+.footer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: rgb(17, 16, 16);
+  padding: 5rem 0;
+}
+
+.footer_container h2{
+  font-size: var(--h3);
+}
+
+.footer_container span{
+  color: rgb(229, 84, 115);
+}
+
+.footer_container p{
+  text-align: center;
+  font-size: var(--h5);
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_container p:last-child{
+  color: rgba(255, 255, 255, 0.4);
 }
