@@ -59,10 +59,10 @@ body {
 }
 
 .btn {
-  font-size: var(--h6);
+  font-size: var(--h5);
   color: rgb(255, 255, 255);
   background-color: rgb(229, 84, 115);
-  padding: 1rem 2rem;
+  padding: 1.5rem 3rem;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -259,4 +259,42 @@ body {
 
 .instagram_imgages img {
   width: 100%;
+}
+
+/* CTA section */
+
+.cta_container{
+  margin: 5rem 20rem;
+  background: url("./Flower Asset/Rectangle 9.png") center/cover no-repeat;
+  /* background-image: url("./Flower Asset/Rectangle\ 9.png");
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background-size: cover; */
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cta_content h2{
+  font-size: var(--h3);
+}
+
+.cta_content p{
+  font-size: var(--h5);
+  color: rgba(39, 39, 39, 0.5);
+  text-align: center;
+}
+
+.input_field input{
+  width: 50rem;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.input_field .btn{
+  padding: 1.2rem 2rem;
+  margin-left: 1rem;
 }
